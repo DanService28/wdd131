@@ -3,7 +3,7 @@
 body {
     display: grid;
     height: 1vh;
-    grid-template: 4;
+    grid-template: 4, 25%;
     padding: 0%;
     margin: 0%;
   }
