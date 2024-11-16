@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(78, 78, 247);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 1200px;
+}
+
+header h1{
+    margin: 0;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.open a {
+	display: block;
+}
+
+.navigation {
+    display: none; /* Por defecto, oculta */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(78, 78, 247); /* Fondo del menú desplegable */
+    text-align: center;
+}
+
+.navigation.open {
+    display: block; /* Mostrar menú al abrir */
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+    display: block; /* Para navegación vertical */
+}
+
+.navigation a:hover {
+    background-color: rgb(212, 212, 231); /* Fondo claro al pasar el mouse */
+    color: rgb(78, 78, 247); /* Texto azul */
+    border-bottom: 1px solid rgba(78, 78, 247, 0.8); /* Línea azul */
+}
+
+main{
+    padding: 20px;
+    text-align: center;
+    background-color: azure;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+figure img{
+    width: 100%;
+    max-width: 300%;
+    height: auto;
+    border: 2px solid #f0f0fd;
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: rgb(93, 33, 231);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    max-width: 1200px;
+}
+
+footer p{
+    padding-top: 10px;
+    margin: 0;
+    
+}
+
+
