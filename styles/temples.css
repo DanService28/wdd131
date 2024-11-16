@@ -43,16 +43,16 @@ header h1{
 }
 
 .navigation {
-    display: none; /* Por defecto, oculta */
+    display: none; 
     list-style: none;
     padding: 0;
     margin: 0;
-    background-color: rgb(78, 78, 247); /* Fondo del menú desplegable */
+    background-color: rgb(78, 78, 247); 
     text-align: center;
 }
 
 .navigation.open {
-    display: block; /* Mostrar menú al abrir */
+    display: block; 
 }
 
 .navigation a {
@@ -60,13 +60,13 @@ header h1{
     text-decoration: none;
     padding: 5px 10px;
     border: 1px solid white;
-    display: block; /* Para navegación vertical */
+    display: block; 
 }
 
 .navigation a:hover {
-    background-color: rgb(212, 212, 231); /* Fondo claro al pasar el mouse */
-    color: rgb(78, 78, 247); /* Texto azul */
-    border-bottom: 1px solid rgba(78, 78, 247, 0.8); /* Línea azul */
+    background-color: rgb(212, 212, 231); 
+    color: rgb(78, 78, 247); 
+    border-bottom: 1px solid rgba(78, 78, 247, 0.8); 
 }
 
 main{
