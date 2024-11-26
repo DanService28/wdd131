@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+body{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    
+}
+
+header, footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 1rem;
+}
+
+header h1{
+    font-size: 1.8rem;
+}
+
+.hero img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.information{background-color: azure;
+    width: 100;}
+
+.information h2{
+    font-size: 1.5rem;
+}
+
+ul{
+    list-style: none;
+    padding-bottom: 2rem;
+}
+
+li{
+    margin: 1rem;
+    font-size: 1rem;
+}
+
+.information h2,
+.weather h2{
+    padding-bottom: 0.5rem;
+}
+
+
+.data{
+    margin: 0;
+    border: solid 0.2rem purple;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.weather{    
+    border: 0.3rem solid orangered;
+    padding-top: 0.5rem;
+}
+
+#weather-icon{
+    width: 20%;
+    height: auto;
+}

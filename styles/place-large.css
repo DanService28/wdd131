@@ -1,0 +1,78 @@
+@media screen and (min-width: 500px)
+{
+    .hero{
+    position: relative; /* Posiciona como contenedor base para elementos secundarios */
+    width: 100%; /* Ocupa todo el ancho */
+    height: 100%; /* Ocupa toda la altura de la pantalla */
+    background-size: cover; /* Ajusta para que cubra el contenedor */
+    background-position: center; /* Centra la imagen */
+    }
+}
+
+@media screen and (min-width: 800px)
+{
+    .data {
+        position: absolute; 
+        height: 12rem;
+        width: 11rem;
+        z-index: 1;
+        top: 22%;
+        left: 6%;
+        background-color: antiquewhite;
+    }
+
+    .data li{
+        font-size: 0.7rem;
+        margin: 0;
+        padding: 2px;
+    }
+
+    .data h2{
+        background-color: green;
+        font-size: 1.3rem;
+        text-align: left;
+        margin-right: 30px;
+        margin-left: -10px;
+        padding: 2px;
+    }
+
+    .weather {
+        position: absolute; 
+        height: 8.5rem;
+        width: 14rem;
+        z-index: 1;
+        top: 21%;
+        right: 6%;
+        background-color: antiquewhite;
+    }
+
+    .weather li{
+        font-size: 0.8rem;
+        margin: 0;
+        padding: 2px;
+    }
+
+    #weather-icon{
+        display: none;
+    }
+
+    .weather h2{
+        background-color: green;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-right: 30px;
+        margin-left: -10px;
+        padding: 2px;
+    }
+
+    .weather h2::after
+    {
+        content: "☀️";
+        padding-left: 20px;
+    }
+
+
+    
+    
+    
+}

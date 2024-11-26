@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W03 Assigment</title>
+    <meta name="author" content="Daniel Herrera">
+    <meta name="description" content="An overview of my city">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>GALÁPAGOS</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 500px)" srcset="images/galapagos-large.webp">
+                <img src="images/galapagos-small.webp" alt="Galapagos Enchanted">
+            </picture>
+        </div>
+        <div class="information">
+            <section class="data">
+                <h2>Data</h2>
+                <ul>
+                    <li><b>Area: </b>45,000km<sup>2</sub></li>
+                    <li><b>Population:</b> 28,583</li>
+                    <li><b>Capital: </b>San Cristobal</li>
+                    <li><b>Languages: </b>Spanish, English</li>
+                    <li><b>Currency: </b>US dollars</li>
+                    <li><b>Time Zone: </b>GMT -6</li>
+                    <li><b>Calling Code: </b>+593</li>
+                    <li><b>Internet TLD: </b>O3b MEO</p></li>
+                </ul>                
+            </section>
+            <section class="weather">
+                <h2>Weather</h2>
+                <img id="weather-icon" src="images/weather-icon.svg" alt="Weather Icon">
+                <ul>
+                    <li><b>Temperature: </b>27 °C</li>
+                    <li><b>Condittions: </b>Sunny</li>
+                    <li><b>Wind: </b>14km/h </li>
+                    <li id="wind-chill"></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p id="copyright">©2024<span id="currentyear"></span> Daniel Herrera. Galapagos. Ecuador</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
