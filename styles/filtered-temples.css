@@ -1,0 +1,134 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(78, 78, 247);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    
+}
+
+header h1{
+    margin: 0;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: white;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+
+.open a {
+	display: block;
+}
+
+.navigation {
+    display: none; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(78, 78, 247); 
+    text-align: center;
+}
+
+.navigation.open {
+    display: block; 
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+    display: block; 
+}
+
+.navigation a:hover {
+    background-color: rgb(212, 212, 231); 
+    color: rgb(78, 78, 247); 
+    border-bottom: 1px solid rgba(78, 78, 247, 0.8); 
+}
+
+main{
+    padding: 20px;
+    text-align: center;
+    background-color: azure;
+    box-sizing: border-box;
+}
+
+.res-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.temple-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 300px;
+    transition: transform 0.2s;
+}
+
+.temple-card:hover {
+    transform: scale(1.05);
+}
+
+.temple-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 1.5em;
+}
+
+p {
+    margin: 5px 0;
+    color: #555;
+}
+
+footer{
+    background-color: rgb(78, 78, 247);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+}
+
+footer p{
+    padding-top: 10px;
+    margin: 0;
+    color: white;
+    
+}
+
+
