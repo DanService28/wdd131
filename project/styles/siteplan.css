@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+}
+header {
+    text-align: center;
+    background: #427aa1;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+header h1 {
+    font-size: 2.5rem;
+}
+header h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+.blue{
+    background-color: #427aa1;
+}
+.yellow{
+    background-color: #facc27;
+}
+section {
+    padding: 1.5rem;
+}
+.purpose h2 {
+    color: #004080;
+}
+.purpose p {
+    margin: 0.5rem 0;
+}
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.monserrat{
+    font-family: 'Monserrat', sans-serif ;
+}
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #004080;
+    color: white;
+    font-size: 0.9rem;
+}
