@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Forms - Daniel Herrera</title>
+    <meta name="description" content="WDD 131 - Practicing with forms">
+    <meta name="author" content="Daniel Herrera">
+    <title>Review Summary</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6e1ed;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #645f8a;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            width: 410px;
+            margin: 0;
+        }
+        
+        main {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        h1, p {
+            margin-bottom: 20px;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #6a5acd;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        a:hover {
+            background-color: #5a4bbd;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <h1>Review Summary</h1>
+    </header>
+    <main>
+        <h2>Thank you for your submission!</h2>
+        <p>Total Reviews Submitted: <span id="reviewCountDisplay">0</span></p>
+        <a href="form.html">Back to Review Form</a>
+    </main>
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const reviewCount = localStorage.getItem("reviewCount") || "0";
+            document.getElementById("reviewCountDisplay").textContent = reviewCount;
+        });
+    </script>
+</body>
+</html>

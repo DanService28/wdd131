@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6e1ed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #645f8a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 410px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #645f8a;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    width: 410px;
+    margin-top: 10px;
+    
+}
+
+form {
+    background-color: #cfdff8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+select, input[type="date"], input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div {
+    margin-bottom: 16px;
+}
+
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.rating-stars {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.rating-stars label {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.rating-inputs {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #6a5acd;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
